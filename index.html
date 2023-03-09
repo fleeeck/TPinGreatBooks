@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Profile - King Shahryar</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <div class="hero">
+        <div class="container pt-5">
+           <div class="row pt-5 my-auto d-flex">
+            <div class="col">
+                <div class="title pt-5" data-aos="fade-right">
+                    <div class="lead-text">King Shahryar</div>
+                    <div class="sub-text">Character Profile</div>
+                </div>
+
+                <div data-aos="fade-left">
+                    <img src="/assets/images/king-castle.png" alt="King Shahryar and Castle" class="img-fluid" id="img-king">
+                </div>
+            </div>
+           </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div data-aos="fade-right">
+                    <img src="/assets/images/king.png" alt="King Shahryar" class="img-fluid">
+                </div>
+            </div>
+            <div class="col align-self-center">
+                <div class="title pt-5 mx-auto" data-aos="fade-down">
+                    <div class="lead-text">King Shahryar</div>
+                    <div class="sub-text">Notable Traits</div>
+                </div>
+
+                <p class="traits mt-5" data-aos="fade-left" data-aos-delay="300">Persian King</p>
+                <p class="traits" data-aos="fade-left" data-aos-delay="350">Spouse of Scheherazade</p>
+                <p class="traits" data-aos="fade-left" data-aos-delay="400">Married to Many</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="w-100 mb-5">
+            <div class="title pt-5 mx-auto" data-aos="fade-down">
+                <div class="lead-text">Background Story</div>
+                <div class="sub-text">King Shahryar</div>
+            </div>
+        </div>
+
+        <div class="book mt-5" data-aos="zoom-in">
+            <div class="book-slider w-100 d-flex" data-aos="fade-zoom-in" data-aos-delay="300">
+                <div class="text-slide">
+                    <p>
+                        King Shahryar had a first wife whom he loved the most, however
+                        One day he discovered her cheating with someone else which led
+                        him to believe that all women would eventually cheat on him.
+                    </p>
+                </div>
+                <div class="text-slide">
+                    <p>
+                        King Shahryar vowed to marry every maiden in his territory but
+                        with a bad intention, the night after the marriage he would behead
+                        his wife, killing her even before sunrise.
+                    </p>
+                </div>
+                <div class="text-slide">
+                    <p>
+                        King Shahryar married and killed hundreds of his wives before he met
+                        Scheherazade which after telling him stories for 1,001 nights, changed
+                        his heart and made him stop the cycle of marrying and killing his wives.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container mt-0 text-center fs-3">
+            Mark Angelo Dayrit | BSIT 3.2A
+        </div>
+    </div>
+
+    <script>
+        $('.book-slider').slick({
+            autoplay: true,
+            arrows: true,
+            dots: false,
+            infinite: true,
+            speed: 500,
+            fade: true,
+            cssEase: 'linear'
+        });
+
+        AOS.init();
+    </script>
+</body>
+</html>

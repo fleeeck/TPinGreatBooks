@@ -12,7 +12,7 @@ body {
 }
 
 .hero {
-    overflow: auto;
+    overflow: hidden;
     position: relative;
 }
 .hero::before {
@@ -29,7 +29,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
-    overflow: hidden;
     filter: blur(25px);
 }
 .title {
